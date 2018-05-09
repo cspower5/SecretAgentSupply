@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color: white;
+  padding: 100px;
+}
+.cycle-img{
+  background-image: url("../images/moto.jpeg");
+}
+.navigation{
+  background-color: red;
+}
+.all-images{
+  display: flex;
+  justify-content: center;
+}
+.all-images img{
+  background-color: white;
+  border: 2px solid black;
+}
+.all-images h3{
+  background-color: black;
+}
