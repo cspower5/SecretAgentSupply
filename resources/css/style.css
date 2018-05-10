@@ -21,10 +21,9 @@ body{
 }
 .all-images{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-grow: 1;
-  background-color: black;
-  border: 3px solid white;
+  background-color: white;
 }
 .all-images img{
   align-items: center;
@@ -41,4 +40,13 @@ body{
 }
 .pic{
   width: 33%;
+}
+.locations-hours{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: white;
+}
+.sub-text{
+  background-color: black;
 }
