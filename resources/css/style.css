@@ -7,83 +7,98 @@ body{
   font-family: Helvetica;
   font-weight: bold;
 }
-header{
+.company{
   width: 960px;
+  background-color: black;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+.company img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.main-img{
+  width: 960px;
+  background-image: url("../images/moto.jpeg");
+  height: 25rem;
+  padding-top: 9rem;
+  margin: 0 auto;
+}
+.banner{
+  width: 20rem;
+  background-color: black;
+  font-size: 1rem;
+  padding-left: 3rem;
+}
+.banner h4{
+  margin-bottom: 0.25rem;
+  margin-top: 2rem;
 }
 .navigation a{
   color: white;
 }
-.navigation span{
-}
-.title{
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
-  background-color: black;
-  font-size: 1rem;
-}
-.title img{
-  height: 1.5rem;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
-  padding-top: 9rem;
-}
-.cycle-img{
-  background-image: url("../images/moto.jpeg");
-  background-size: cover;
-  height: 25rem;
-  padding-top: 9rem;
-  width: 960px;
-}
 .navigation{
+  display: flex;
+  justify-content: center;
   background-color: firebrick;
   width: 960px;
-  }
+  margin: 0 auto;
+}
 .all-images{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
   background-color: white;
   width: 960px;
+  margin: 0 auto;
 }
-.all-images img{
-  background-color: white;
+.all-images .pic{
   border: 4px solid black;
-  margin: 9rem;
   width: 30%;
-}
-.new-arrival{
-  background-color: black;
-  width: 20rem;
   padding-top: 2rem;
-  padding-left: 3rem;
-  }
-.new-arrival h1{
-  font-size: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-.new-arrival h3{
-  font-size: 1rem;
-  margin-top: 0.25rem
-}
-.pic{
-  width: 33%;
-}
-.locations-hours{
-  background-color: white;
-  width: 35%;
+.pic img{
+  height: 9rem;
+  width: 0 auto;
 }
 .sub-text{
   background-color: black;
   text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.locations-hours{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 auto;
+  width: 960px;
 }
 .location{
-  align-items: center;
+  margin-top: 3rem;
+  width: 35%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .hour{
-  align-items: center;
-}
-.pic img{
-  width: 8em;
+  margin-top: 3rem;
+  width: 35%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 footer{
   background-color: black;
   height: 5rem;
+  width: 960px;
+  margin: 0 auto;
 }
 footer h5{
   text-align: left;
