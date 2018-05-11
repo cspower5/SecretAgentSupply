@@ -6,11 +6,14 @@ body{
   padding: 100px;
   font-family: Helvetica;
   font-weight: bold;
+}
+header{
   width: 960px;
 }
 .navigation a{
   color: white;
-  align-items: center;
+}
+.navigation span{
 }
 .title{
   padding-top: 0.66rem;
@@ -29,17 +32,15 @@ body{
   background-size: cover;
   height: 25rem;
   padding-top: 9rem;
+  width: 960px;
 }
 .navigation{
   background-color: firebrick;
-  padding-top: .075rem;
-  padding-bottom: .075rem;
-}
+  width: 960px;
+  }
 .all-images{
-  display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
   background-color: white;
+  width: 960px;
 }
 .all-images img{
   background-color: white;
