@@ -10,6 +10,9 @@ body{
 a{
   color: white;
 }
+nav span{
+  margin: 0 2.1rem;
+}
 .company{
   width: 960px;
   background-color: black;
@@ -34,7 +37,6 @@ a{
   width: 20rem;
   background-color: black;
   padding: 2rem 3rem;
-  margin-left: 5%;
 }
 .banner h4{
   margin-bottom: 0.25rem;
@@ -42,10 +44,6 @@ a{
 }
 .banner h1{
   font-size: 2rem;
-}
-.navigation nav span a{
-  display: inline-flex;
-  align-items:flex-start;
 }
 .navigation{
   display: flex;
