@@ -7,6 +7,9 @@ body{
   font-family: Helvetica;
   font-weight: bold;
 }
+a{
+  color: white;
+}
 .company{
   width: 960px;
   background-color: black;
@@ -37,8 +40,9 @@ body{
   margin-bottom: 0.25rem;
   margin-top: 2rem;
 }
-.navigation a{
-  color: white;
+.navigation nav span a{
+  display: inline-flex;
+  align-items:flex-start;
 }
 .navigation{
   display: flex;
@@ -46,26 +50,31 @@ body{
   background-color: firebrick;
   width: 960px;
   margin: 0 auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .all-images{
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   flex-grow: 1;
   background-color: white;
   width: 960px;
   margin: 0 auto;
 }
 .all-images .pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 4px solid black;
   width: 30%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
+  }
 .pic img{
   height: 9rem;
-  width: 12rem;
 }
 .sub-text{
   background-color: black;
