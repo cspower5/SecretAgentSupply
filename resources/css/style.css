@@ -73,8 +73,9 @@ nav span{
 }
 .pic img{
   height: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /*margin-top: 2rem;
+  margin-bottom: 2rem;*/
+  margin: 2rem 3rem;
 }
 .sub-text{
   background-color: black;
