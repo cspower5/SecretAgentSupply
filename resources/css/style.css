@@ -73,8 +73,6 @@ nav span{
 }
 .pic img{
   height: 9rem;
-  /*margin-top: 2rem;
-  margin-bottom: 2rem;*/
   margin: 2rem 3rem;
 }
 .sub-text{
@@ -134,6 +132,12 @@ footer h5{
   .hour{
     width: 35%;
   }
+  footer{
+    width 100%;
+  }
+  .company .main-img .all-images{
+    width 100%;
+  }
 }
 @media only screen and (max-width: 470){
   .banner{
@@ -156,5 +160,11 @@ footer h5{
   }
   .hour{
     width: 90%;
+  }
+  footer{
+    width 100%;
+  }
+  .company .main-img .all-images{
+    width 100%;
   }
 }
