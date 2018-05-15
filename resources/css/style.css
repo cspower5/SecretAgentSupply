@@ -152,13 +152,13 @@ footer h5{
   .main-img{
     height: 10rem;
   }
-  .all-images .pic .locations .hour{
+  .all-images .locations .hour{
     width: 90%;
   }
   footer{
     width 100%;
   }
-  .company .main-img .all-images{
+  .company .main-img{
     width 100%;
   }
 }
