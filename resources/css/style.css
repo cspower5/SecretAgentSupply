@@ -124,3 +124,37 @@ footer{
 footer h5{
   text-align: left;
 }
+@media only screen and (max-width: 1024px) {
+  .all-images .pic{
+    width: 47%;
+  }
+  .location{
+    width: 35%;
+  }
+  .hour{
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 470){
+  .banner{
+    padding-left: 1rem 2rem;
+  }
+  .banner h4 {
+    font-size: 0.77rem;
+  }
+  .banner h1{
+    font-size: 1rem;
+  }
+  .main-img{
+    height: 10rem;
+  }
+  .all-images .pic{
+    width: 90%;
+  }
+  .location{
+    width: 90%;
+  }
+  .hour{
+    width: 90%;
+  }
+}
