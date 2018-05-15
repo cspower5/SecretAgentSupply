@@ -139,7 +139,7 @@ footer h5{
     width 100%;
   }
 }
-@media only screen and (max-width: 470){
+@media only screen and (max-width: 470px){
   .banner{
     padding-left: 1rem 2rem;
   }
@@ -152,13 +152,7 @@ footer h5{
   .main-img{
     height: 10rem;
   }
-  .all-images .pic{
-    width: 90%;
-  }
-  .location{
-    width: 90%;
-  }
-  .hour{
+  .all-images .pic .locations .hour{
     width: 90%;
   }
   footer{
