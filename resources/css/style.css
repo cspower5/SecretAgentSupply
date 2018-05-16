@@ -149,16 +149,30 @@ footer h5{
   .banner h1{
     font-size: 1rem;
   }
-  .main-img{
-    height: 10rem;
-  }
-  .all-images .locations .hour{
+  .pic{
     width: 90%;
   }
   footer{
     width: 100%;
   }
-  .company .main-img{
+  .company{
     width 100%;
+  }
+  .main-img{
+    height: 15rem;
+    width: 100%;
+    padding-top: 10rem;
+  }
+  .location{
+    width: 90%;
+  }
+  .hour{
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+  .locations-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
