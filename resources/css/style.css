@@ -156,7 +156,7 @@ footer h5{
     width: 100%;
   }
   .company{
-    width 100%;
+    width: 100%;
   }
   .main-img{
     height: 15rem;
@@ -174,5 +174,8 @@ footer h5{
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  footer h5{
+    text-align: center;
   }
 }
